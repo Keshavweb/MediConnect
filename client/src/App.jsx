@@ -14,7 +14,7 @@ import PatientDashboard from "./pages/patient/PatientDashboard";
 function App() {
 useEffect(() => {
     // Hit backend once when user opens site
-    fetch("https://mediconnect-02qp.onrender.com/ping")
+    fetch("https://mediconnect-10fn.onrender.com.com/ping")
       .then(() => console.log("Backend warmed up"))
       .catch(() => {});
   }, []);

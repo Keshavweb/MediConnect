@@ -21,7 +21,7 @@ export default function AdminLogin() {
     }
 
     try {
-      const res = await axios.post("https://mediconnect-02qp.onrender.com/api/admin", {
+      const res = await axios.post("https://mediconnect-10fn.onrender.com/api/admin", {
         userId,
         password,
       });

@@ -20,7 +20,7 @@ export default function ActiveDialog({ closeDialog, patientData }) {
       }
 
       await axios.patch(
-        `https://mediconnect-02qp.onrender.com/api/patients/${patientData._id}/complete`,
+        `https://mediconnect-10fn.onrender.com/api/patients/${patientData._id}/complete`,
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
